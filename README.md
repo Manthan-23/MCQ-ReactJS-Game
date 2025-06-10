@@ -1,12 +1,11 @@
-# React + Vite
+# ReactJS MCQ Game App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is developed using ReactJS and TailwindCSS.
 
-Currently, two official plugins are available:
+- The MCQ includes of 5 questions.
+- On a single screen only one question is displayed.
+- Each question has a timer of 30s.
+- If the user submits a wrong answer, the correct answer will be highlighted.
+- At the end score will be displayed to the user.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
